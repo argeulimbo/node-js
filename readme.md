@@ -3,5 +3,8 @@
 
 ### Orientações abaixo: 
 * Clonar repositório       - `git clone https://github.com/argeulimbo/node-js`
-* Rodar npm install        - `npm install nodemon --save-dev`
+* Rodar comando            - `npm install nodemon --save-dev`
 * Criar pasta '.gitignore' - `content: node_modules`
+
+### Express
+* Rodar comando            - `npm install express`
