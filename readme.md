@@ -2,6 +2,6 @@
 ## Bootcamp SaaS para Barbearias
 
 ### Orientações abaixo: 
-* Clonar repositório       - `git clone ${link}`
+* Clonar repositório       - `git clone https://github.com/argeulimbo/node-js`
 * Rodar npm install        - `npm install nodemon --save-dev`
 * Criar pasta '.gitignore' - `content: node_modules`
