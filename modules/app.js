@@ -1,5 +1,8 @@
 const express = require('express');
+const UserModel = require('../src/models/user.model');
 const app = express();
+
+// PORTA config
 const port = 9090;
 
 // GET home
@@ -22,4 +25,10 @@ app.get('/users', (request, response) => {
         }
     ];
     response.status(200).json(users);
-})
+});
+
+// POST user
+app.post('/users', (request, response) => {
+    const user = UserModel.create(request.body)
+    response.status(201).json(user);
+});
