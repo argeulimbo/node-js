@@ -8,3 +8,6 @@
 
 ### Express
 * Rodar comando            - `npm install express`
+
+### Mongoose
+* Rodar comando            - `npm install mongoose`
